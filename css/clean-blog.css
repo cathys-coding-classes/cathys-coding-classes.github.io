@@ -8,11 +8,14 @@ body {
   font-size: 20px;
   color: #212529;
   font-family: 'Lora', 'Times New Roman', serif;
+
 }
 
 p {
   line-height: 1.5;
-  margin: 30px 0;
+  margin: 10px 0;
+/*  margin: 0px;
+  padding: 0px;*/
 }
 
 p a {
@@ -25,6 +28,7 @@ h3,
 h4,
 h5,
 h6 {
+  margin-bottom: 20px;
   font-weight: 800;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -49,6 +53,11 @@ blockquote {
   margin-top: 60px;
 }
 
+.container {
+    text-align: left;
+}
+
+
 .caption {
   font-size: 14px;
   font-style: italic;
@@ -71,6 +80,7 @@ blockquote {
   background: #0085A1;
   text-shadow: none;
 }
+
 
 img::-moz-selection {
   color: #fff;
@@ -369,7 +379,7 @@ form .form-group:first-child .floating-label-form-group {
 }
 
 footer {
-  padding: 50px 0 65px;
+  padding: 20px 0 65px;
 }
 
 footer .list-inline {
@@ -409,7 +419,30 @@ footer .copyright {
     width: 100%;
 }
 
+@media only screen and (max-width: 768px) {
+    .btn {
+        font-size: 18px;
+        font-weight: 800px;
+        padding: inherit;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border-radius: 0;
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    
+    .btn-primary {
+        width: 100%;
+    }
+}
+
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px;
 }
+
+.row{
+    padding-top: 50px;
+}
+
+
+
